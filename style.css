@@ -7,9 +7,51 @@ h1 {
   font-size: 65px;
 }
 
+.pictures {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.one .test,
+.two .test,
+.three .test,
+.four .test,
+.five .test,
+.six .test {
+  border-radius: 50%;
+  border: dashed;
+}
+.five {
+  grid-column-start: 2;
+}
+
+.six {
+  grid-column-start: 3;
+}
+
+.shoeone,
+.shoetwo,
+.shoethree,
+.shoefour,
+.shoefive,
+.shoesix,
+.shoeseven,
+.shoeeight {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.nameprice {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+
 .container .shoes {
   display: grid;
-  grid-template-columns: 80% 80%;
+  grid-template-columns: 65% 65%;
 }
 
 .container {
@@ -17,12 +59,15 @@ h1 {
   grid-template-columns: 15% 65%;
 }
 
-.shoes {
-  margin-left: 7.5em;
+#categories {
+  position: sticky;
+  top: 50px;
+  margin-bottom: auto;
 }
 
-.categories {
-  position: sticky;
-  top: 9ch;
-  scroll-behavior: smooth;
+.shoes .nameprice {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 11.34px;
 }
