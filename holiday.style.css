@@ -771,9 +771,9 @@ picture {
   --danger-color: #f14668;
   --danger-text-color: #fff;
   --danger-hover-color: #f03a5f;
-  --success-color: #48c774;
+  --success-color: #876385;
   --success-text-color: #fff;
-  --success-hover-color: #3ec46d;
+  --success-hover-color: #6e506d;
   --danger-text-background-color: #fde0e6;
   --success-text-background-color: #effaf3;
   --border-radius: 0.25rem;
@@ -781,7 +781,7 @@ picture {
   --code-text-color: #f14668;
   --code-background-color: #f5f5f5;
   --link-color: #3273dc;
-  --link-visited-color: #b86bff;
+  --link-visited-color: #767576;
   --link-hover-color: #363636;
   --link-active-color: #363636;
 }

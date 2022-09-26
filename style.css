@@ -1,6 +1,7 @@
 .Logo {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 3em;
+  transform: scale(1.3);
 }
 
 h1 {
@@ -11,6 +12,8 @@ h1 {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 20px;
+  margin-top: 1.5em;
 }
 
 .one .test,
@@ -19,9 +22,20 @@ h1 {
 .four .test,
 .five .test,
 .six .test {
-  border-radius: 50%;
-  border: dashed;
+  border-radius: 20%;
+  transition-duration: 0.3s;
 }
+
+.one .test:hover,
+.two .test:hover,
+.three .test:hover,
+.four .test:hover,
+.five .test:hover,
+.six .test:hover {
+  transform: scale(1.1);
+  margin-top: -10px;
+}
+
 .five {
   grid-column-start: 2;
 }
@@ -30,28 +44,14 @@ h1 {
   grid-column-start: 3;
 }
 
-.shoeone,
-.shoetwo,
-.shoethree,
-.shoefour,
-.shoefive,
-.shoesix,
-.shoeseven,
-.shoeeight {
-  position: relative;
-  text-align: center;
-  color: black;
+.buttonn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
 }
 
-.nameprice {
-  position: absolute;
-  top: 0px;
-  right: 16px;
-}
-
-.container .shoes {
-  display: grid;
-  grid-template-columns: 65% 65%;
+.button {
+  width: 150px;
 }
 
 .container {
@@ -63,6 +63,33 @@ h1 {
   position: sticky;
   top: 50px;
   margin-bottom: auto;
+}
+.container .shoes {
+  display: grid;
+  grid-template-columns: 65% 65%;
+  grid-row-gap: 10px;
+}
+.shoeone,
+.shoetwo,
+.shoethree,
+.shoefour,
+.shoefive,
+.shoesix,
+.shoeseven,
+.shoeeight,
+.shoenine,
+.shoeten,
+.shoeeleven,
+.shoetwelve {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.nameprice {
+  position: absolute;
+  top: 0px;
+  right: 16px;
 }
 
 .shoes .nameprice {
