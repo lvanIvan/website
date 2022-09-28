@@ -4,18 +4,117 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page</title>
+    <title>Dunk Low 'Black White'</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="holiday.style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <div class="nav">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="sneakers.html">Sneakers</a></li>
-            <link rel="stylesheet" href="style.css"/>
-            <link rel="stylesheet" href="holiday.style.css"/>
-          </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sneakers.html">Sneakers</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h2>Dunk Low 'Black White'</h2>
+    <div class="wrapper">
+      <div class="content">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Pictures/dunklowone.PNG" alt="dunklowright" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Pictures/dunklowtwo.PNG" alt="dunklowleft" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Pictures/dunklowthree.PNG" alt="dunklowbottom" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Pictures/dunklowfive.PNG" alt="dunklowfront" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="sizesandprices">
+        <div class="ltcc"><strong>&ltcc;</strong></div>
+        <div class="sizefour">
+          <h3>4</h3>
+        </div>
+        <div class="sizefive">
+          <h3>5</h3>
+        </div>
+        <div class="sizesix">
+          <h3>6</h3>
+        </div>
+        <div class="sizeseven">
+          <h3>7</h3>
+        </div>
+        <div class="sizeeight">
+          <h3>8</h3>
+        </div>
+        <div class="sizenine">
+          <h3>9</h3>
+        </div>
+        <div class="sizeten">
+          <h3>10</h3>
+        </div>
+        <div class="sizeeleven">
+          <h3>11</h3>
+        </div>
+        <div class="gtcc"><strong>&gtcc;</strong></div>
+        <div class="empty"></div>
+        <div class="pricefour">
+          <p><u>$250</u></p>
+        </div>
+        <div class="pricefive">
+          <p><u>$248</u></p>
+        </div>
+        <div class="pricesix">
+          <p><u>$215</u></p>
+        </div>
+        <div class="priceseven">
+          <p><u>$180</u></p>
+        </div>
+        <div class="priceeight">
+          <p><u>$185</u></p>
+        </div>
+        <div class="pricenine">
+          <p><u>$175</u></p>
+        </div>
+        <div class="priceten">
+          <p><u>$175</u></p>
+        </div>
+        <div class="priceeleven">
+          <p><u>$180</u></p>
+        </div>
+        <div class="empty"></div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper(".swiper", {
+          loop: true,
+
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </div>
   </body>
 </html>

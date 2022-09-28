@@ -790,21 +790,21 @@ picture {
   :root {
     --border-color: #5f6267;
     --border-hover-color: #bcbebd;
-    --background-color: #202124;
+    --background-color: #e0e0e0;
     --highlighted-background-color: #292b2e;
     --text-color: #fff;
     --danger-color: #770018;
     --danger-text-color: #fff;
     --danger-hover-color: #6b0015;
-    --success-color: #006624;
+    --success-color: #404040;
     --success-text-color: #fff;
-    --success-hover-color: #006122;
+    --success-hover-color: #000000;
     --danger-text-background-color: #770018;
     --success-text-background-color: #006624;
     --code-text-color: #f1a0b0;
     --code-background-color: #292b2e;
-    --link-color: #90b3ed;
-    --link-visited-color: #cb93ff;
+    --link-color: #274472;
+    --link-visited-color: #75b7d6;
     --link-hover-color: #fff;
     --link-active-color: #fff;
   }

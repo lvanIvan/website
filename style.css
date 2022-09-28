@@ -1,11 +1,12 @@
-.Logo {
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.logo {
   text-align: center;
   margin-top: 3em;
   transform: scale(1.3);
-}
-
-h1 {
-  font-size: 65px;
 }
 
 .pictures {
@@ -53,6 +54,15 @@ h1 {
 .button {
   width: 150px;
 }
+/*end of home page*/
+
+.about p {
+  letter-spacing: 0.01em;
+  text-indent: 45px;
+  margin-top: 23px;
+}
+
+/*end of about page*/
 
 .container {
   display: grid;
@@ -63,11 +73,13 @@ h1 {
   position: sticky;
   top: 50px;
   margin-bottom: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .container .shoes {
   display: grid;
   grid-template-columns: 65% 65%;
-  grid-row-gap: 10px;
+  grid-row-gap: 20px;
 }
 .shoeone,
 .shoetwo,
@@ -89,7 +101,7 @@ h1 {
 .nameprice {
   position: absolute;
   top: 0px;
-  right: 16px;
+  right: 70px;
 }
 
 .shoes .nameprice {
@@ -98,3 +110,69 @@ h1 {
   font-style: italic;
   font-size: 11.34px;
 }
+
+/*end of sneaker page */
+
+* .wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.swiper {
+  width: 90%;
+  height: fit-content;
+  vertical-align: top;
+  margin-top: -125px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: black;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background: black;
+}
+
+.sizesandprices {
+  margin-top: -210px;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+  align-items: center;
+}
+
+.sizesandprices h3 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.sizesandprices p {
+  text-align: center;
+  cursor: pointer;
+  font-size: small;
+}
+
+.ltcc,
+.gtcc {
+  cursor: pointer;
+}
+
+/*end of sneaker display page */
