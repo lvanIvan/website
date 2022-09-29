@@ -1,7 +1,10 @@
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  color: black;
 }
+
+/*end of overall*/
 
 .logo {
   text-align: center;
