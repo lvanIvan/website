@@ -59,7 +59,19 @@ h2 {
 
 .button {
   width: 150px;
+  text-align: center;
+  background-color: #404040;
+  border-radius: 30%;
 }
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button p {
+  color: rgb(255, 255, 255);
+}
+
 /*end of home page*/
 
 .about p {
