@@ -66,6 +66,7 @@ h2 {
 
 .button:hover {
   cursor: pointer;
+  background-color: #252525;
 }
 
 .button p {
